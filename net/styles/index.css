@@ -1,0 +1,279 @@
+/* 首页样式设置 */
+/* 主题内容 */
+/* banner */
+#main>.banner{
+    width: 100%;
+    height: 549px;
+    background-image: url("../images/banner1.jpg");
+    background-position: -274px 0;
+    position: relative;
+    margin-bottom: 27px;
+}
+/* 文字框 */
+#main>.banner>.textCenter{
+    width: 450px;
+    height: 170px;
+    /* background-color: cornflowerblue; */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/border.png");
+    padding-top: 40px;
+}
+/* 大标题 */
+#main>.banner>.textCenter>.bigTitle{
+    width: 360px;
+    height: 44px;
+    font-size: 44px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 22px;
+}
+/* 小文字 */
+#main>.banner>.textCenter>.smallText{
+    width: 360px;
+    height: 51px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+/* 介绍 */
+/* 内容单元格 */
+#main>.information{
+    margin-bottom: 87px;
+}
+#main>.information .inBox{
+    width: 400px;
+    height: 166px;
+    float: left;
+    padding-top: 44px;
+}
+#main>.information .box1{
+    background-image: url("../images/01.jpg");
+}
+#main>.information .box2{
+    background-image: url("../images/02.jpg");
+}
+#main>.information .box3{
+    background-image: url("../images/03.jpg");
+}
+/* 大标题 */
+#main>.information .inBox>.bigTitle{
+    width: 318px;
+    height: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 27px;
+}
+/* 小文字 */
+#main>.information .inBox>.smallText{
+    width: 318px;
+    height: 70px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    line-height: 27px;
+}
+/* 产品展示 */
+/* 头部标题 */
+#main .textTop>span:first-child{
+    font-size: 28px;
+    color: #000;
+    margin-right: 16px;
+}
+#main .textTop>span:last-child{
+    font-size: 22px;
+    color: #666;
+}
+#main .titleTop .lineTop{
+    width: 54px;
+    height: 4px;
+    background-color: #15bded;
+    margin-top: 18px;
+}
+#main .titleTop{
+    margin-bottom: 42px;
+}
+/* 商品列表 */
+#main .goodsList .listLeft,
+#main .goodsList .listRight{
+    width: 600px;
+    height: 580px;
+}
+/* 左边区域 */
+#main .goodsList .listLeft>ul>li{
+    width: 270px;
+    height: 276px;
+    /* background-color: crimson; */
+    float: left;
+    margin-right: 30px;
+}
+#main .goodsList .listLeft>ul>li:first-child,
+#main .goodsList .listLeft>ul>li:nth-child(2){
+    margin-bottom: 28px;
+}
+#main .goodsList .listLeft>ul>li:first-child{
+    background-image: url("../images/pic01.jpg");
+}
+#main .goodsList .listLeft>ul>li:nth-child(2){
+    background-image: url("../images/pic02.jpg");
+}
+#main .goodsList .listLeft>ul>li:nth-child(3){
+    background-image: url("../images/pic03.jpg");
+}
+#main .goodsList .listLeft>ul>li:last-child{
+    background-image: url("../images/pic04.jpg");
+}
+/* 遮罩层 */
+#main .goodsList .listLeft>ul>li>.single{
+    width: 270px;
+    height: 276px;
+    background: rgba(255,255,255,.8);
+    position: relative;
+    display: none;
+}
+#main .goodsList .listLeft>ul>li>.single>.info{
+    width: 124px;
+    height: 64px;
+    /* background-color: darkblue; */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#main .goodsList .listLeft>ul>li>.single>.info>div:first-child{
+    font-size: 26px;
+    text-align: center;
+    color: black;
+}
+#main .goodsList .listLeft>ul>li>.single>.info>div:last-child{
+    font-size: 22px;
+    text-align: center;
+    color: #15bded;
+}
+/* 左边本区域鼠标悬停事件 */
+#main .goodsList .listLeft>ul>li:hover .single{
+    display: block;
+}
+/* #main .goodsList .listLeft>ul>li:first-child:hover{
+    background-image: url("../images/pic01-01.jpg");
+}
+#main .goodsList .listLeft>ul>li:nth-child(2):hover{
+    background-image: url("../images/pic02-01.jpg");
+}
+#main .goodsList .listLeft>ul>li:nth-child(3):hover{
+    background-image: url("../images/pic03-01.jpg");
+}
+#main .goodsList .listLeft>ul>li:last-child:hover{
+    background-image: url("../images/pic04-01.jpg");
+} */
+/* 右边区域 */
+#main .goodsList .listRight{
+    background-image: url("../images/pic05.jpg");
+}
+/* 右边区域悬停事件 */
+/* #main .goodsList .listRight:hover{
+    background-image: url("../images/pic05-01.jpg");
+} */
+
+/* 关于我们 */
+#main>.aboutUs{
+    margin-top: 50px;
+    width: 100%;
+    height: 510px;
+    background-image: url("../images/banner3.jpg");
+   background-position: -313px 0;
+   position: relative;
+   margin-bottom: 67px;
+}
+/* 居中框体 */
+#main>.aboutUs>.centerBox{
+    width: 680px;
+    height: 360px;
+    /* background-color: cornflowerblue; */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* 头部 */
+#main>.aboutUs>.centerBox>.topText{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#main>.aboutUs>.centerBox>.topText>.line{
+    width: 54px;
+    height: 5px;
+    background-color: #15bded;
+    margin: auto;
+    margin-top: 13px;
+}
+/* 文字内容 */
+#main>.aboutUs>.centerBox>.infoText{
+    font-size: 16px;
+    color: #666;
+    line-height: 27px;
+}
+/* 按钮 */
+#main>.aboutUs>.centerBox>.button{
+    /* background-color: chartreuse; */
+    text-align: center;
+    position: relative;
+    top: 32px;
+}
+#main>.aboutUs>.centerBox>.button>button{
+    width: 155px;
+    height: 46px;
+    border-radius: 30px;
+    background-color: #15bded;
+    border: 1px solid #15bded;
+    font-size: 14px;
+    color: #fff;
+}
+/* 新闻列表 */
+/* 列表单元格 */
+#main>.news>.listBox .singleBox{
+    width: 380px;
+    height: 496px;
+    /* background-color: cornflowerblue; */
+}
+#main>.news>.listBox .singleBox>img{
+    margin-bottom: 22px;
+}
+#main>.news>.listBox .singleBox:first-child{
+    margin-right: 30px;
+}
+/* 列表单元格 */
+#main>.news>.listBox .singleBox>ul>li{
+    padding: 0 5px;
+    border-bottom: 3px solid #ccc;
+    line-height: 31px;
+}
+#main>.news>.listBox .singleBox>ul>li>span:first-child{
+    font-size: 16px;
+    color: #666;
+}
+#main>.news>.listBox .singleBox>ul>li>span:first-child>a{
+    color: #15bded;
+}
+#main>.news>.listBox .singleBox>ul>li>span:last-child{
+    font-size: 12px;
+    color: #666;
+    margin-top: 3px;
+}

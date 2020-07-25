@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body::after{
+            content:"";
+            display: block;
+            clear: both;
+        }
+        div{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #ccc;
+            float: left;
+            color: #fff;
+            font-size: 16px;
+            margin-right: 20px;
+            text-align: center;
+            line-height: 20px;
+            cursor: pointer;
+        }
+        .active{
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div>√</div>
+    <div>√</div>
+    <div>√</div>
+    <div>√</div>
+    <script>
+        // 获取标签元素
+        var divs = document.getElementsByTagName("div");
+        // 循环添加点击事件
+        for (var a=0;a<divs.length;a++) {
+            // 添加点击事件
+            divs[a].onclick = function () {
+                this.className = "active";
+            }
+        }
+    </script>
+</body>
+</html>
